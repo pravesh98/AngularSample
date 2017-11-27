@@ -1,0 +1,14 @@
+<input type="text" ng-model="name">
+<div ng-bind="name"></div>
+
+---- so here whatever we will type in ng-model="name" it will automatically print that in the ng-bind="name" field.. that means ng-bind binds the name attribute of ng-model to this ng-bind.
+
+ng-bind also works with textArea attribute.
+
+<div ng-model="name" contenteditable="true">
+----
+this contenteditable parameter is used to convert the div to accept the value also , but ng-bind will only work for input attribute and hence this will not work here if we use div with contenteditable option.
+
+ng-init -- is used to declare a variable , the way we declare a variable in javascript.
+
+ng-repeat -- it is another directive in angular js it is used when we need to loop the data.
